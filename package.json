@@ -1,0 +1,25 @@
+{
+  "name": "refresh-start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backend/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "seeder": "node backend/utils/seeder.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^5.3.0",
+    "mongoose": "^7.1.0",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^1.19.4",
+    "validator": "^13.9.0"
+  }
+}
